@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mapping-extensions"
+version = "0.0.0-dev"
+description = "Extends mapping concepts to provide greater coding flexibility."
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Unlicensed",
+    "Operating System :: OS Independent",
+]

@@ -1,7 +1,6 @@
 # Introduction
-mapext extends dictionaries by using decorators to assign functions and classes to Hashable keys. The library also provides variations to this base concept, including:
+mapping-extensions extends dictionaries, incorporating decorators to help assign functions and classes to Hashable keys. The library also provides variations to this base concept, including:
 
-- DescriptorMapping: a descriptor class for easy extension of class functionality dependent on input.
-- FactoryRegister: a class that maps keys to factory pattern classes.
+`mapext.descriptorregister` module: Allowing for dynamic extension of class functionality dependent on input.
 
-kv-decor also features a FrozenKeys class, a dictionary that is immutable once a particular key has been assigned a value.
+mapping-extensions also features a `FrozenKeys` class, a dictionary that is immutable once a particular key has been assigned a value.
